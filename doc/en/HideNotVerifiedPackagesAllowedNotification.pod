@@ -1,0 +1,38 @@
+=head1 NAME
+
+HideNotVerifiedPackagesAllowedNotification
+
+=head1 DESCRIPTION
+
+Due to security reasons, one cannot install not-verified packages in OTRS. But admins can allow not-verified
+packages. This is needed for most third-party addons like the ones from L<OPAR|http://opar.perl-services.de>
+or from L<Feature-Addons.de|https://feature-addons.de>.
+
+When the feature is turned on, the admins get a notification near the navigation that warns the admin that
+the feature is activated.
+
+Since OTRS 6.0.something this notification is shown on every page to admins. This is annoying since this
+was an educated decision.
+
+Reasons I want to switch the notification off:
+
+=over 4
+
+=item * It's just annoying to see that warning on every single page as an admin.
+
+
+=item * I need the space the notification takes
+
+=back
+
+After this addon is installed, the notification is only shown in the admin area.
+
+=head1 REPOSITORY & BUGS
+
+The code for this addon and a bugtracker can be found at L<http://github.com/reneeb/otrs-HideNotVerifiedPackagesAllowedNotification>.
+
+=head1 AUTHOR
+
+This module is licensed under the terms of AGPL 3.0.
+
+Author: Renee Baecker, Perl-Services.de, C<< <otrs@perl-services.de> >>

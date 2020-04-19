@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.4) -->
+    <Name>HideNotVerifiedPackagesAllowedNotification</Name>
+    <Version>6.0.1</Version>
+    <Framework>6.0.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>http://www.perl-services.de</URL>
+    <Description Lang="de">Verstecke die Benachrichtigung, dass nicht-verifizierte Pakete installiert werden können.</Description>
+    <Description Lang="en">Hide notification that not-verified packages can be installed.</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/XML/HideNotVerifiedPackagesAllowedNotification.xml" />
+        <File Permission="644" Location="doc/HideNotVerifiedPackagesAllowedNotification.json" />
+        <File Permission="644" Location="doc/en/HideNotVerifiedPackagesAllowedNotification.pod" />
+        <File Permission="644" Location="var/httpd/htdocs/js/HideNotVerifiedPackagesAllowedNotification.js" />
+    </Filelist>
+</otrs_package>
